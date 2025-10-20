@@ -1,0 +1,43 @@
+# Core ML libraries
+torch>=1.9.0
+torchvision>=0.10.0
+transformers>=4.20.0
+datasets>=2.0.0
+
+# Fine-tuning libraries
+peft>=0.3.0
+bitsandbytes>=0.39.0
+accelerate>=0.20.0
+
+# UI and visualization
+streamlit>=1.25.0
+plotly>=5.15.0
+pandas>=1.5.0
+matplotlib>=3.5.0
+
+# Image processing
+Pillow>=8.3.0
+opencv-python>=4.5.0
+
+# Utilities
+numpy>=1.21.0
+requests>=2.25.0
+tqdm>=4.62.0
+nltk>=3.7
+scikit-image>=0.18.0
+
+# Logging and monitoring
+wandb>=0.15.0
+tensorboard>=2.10.0
+
+# Data handling
+pyarrow>=8.0.0
+jsonlines>=3.1.0
+
+# Report generation
+jinja2>=3.1.0
+seaborn>=0.11.0
+
+# Optional: For advanced features
+gradio>=3.35.0  # Alternative UI
+huggingface-hub>=0.15.0
